@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #b7e7b7;
+}
+header h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: cursive;
+}
+
+.banking-section{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.top-section{
+    display: flex;
+
+}
+
+.deposit-section, .withdraw-section, .balance-section{
+    width: 33%;
+    text-align: center;
+    background-color: green;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.withdraw-section{
+    width: 33%;
+    text-align: center;
+    background-color: #b92b2b;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.balance-section{
+    width: 33%;
+    text-align: center;
+    background-color: #546ddf;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.deposit-section, .withdraw-section, .balance-section h4{
+    color: white;
+
+}
+.deposit-section, .withdraw-section, .balance-section h2{
+    color: white;
+
+}
+.bottom-section{
+    display: flex;
+    margin-top: 20px;
+}
+.deposit-input-section{
+    width: 48%;
+    background-color: green;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.withdraw-input-section{
+    width: 48%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #b92b2b;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.deposit-input-section input,.withdraw-input-section input{
+    padding: 8px 15px;
+    font-size: 20px;
+    
+
+}
+.deposit-input-section button,.withdraw-input-section button{
+    padding: 8px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Page</title>
+
+    <link rel="stylesheet" href="css/banking.css">
+</head>
+<body>
+    <header>
+        <h1>Wellcome to Javascript Bank Dashboard</h1>
+    </header>
+    <main>
+        <section class="banking-section">
+            <div class="top-section">
+                <div class="deposit-section">
+                    <h4>Deposit</h4>
+                    <h2>$<span id="deposit-balance">000</span></h2>
+
+                </div>
+                <div class="withdraw-section">
+                    <h4>Withdraw</h4>
+                    <h2>$<span id="withdraw-balance">000</span></h2>
+
+                </div>
+                <div class="balance-section">
+                    <h4>Balance</h4>
+                    <h2>$<span id="balence-total">1000</span></h2>
+
+                </div>
+            </div>
+
+            <div class="bottom-section">
+                <div class="deposit-input-section">
+                    <h2>Deposit Some Money!!</h2>
+                    <input type="text" id="deposit-input" placeholder="$amount">
+                    <br>
+                    <button type="submit" id="deposit-button">Deposit</button>
+                </div>
+                <div class="withdraw-input-section">
+                    <h2>Withdraw Some Money!!</h2>
+                    <input type="text" id="withdraw-input" placeholder="$amount">
+                    <br>
+                    <button type="submit" id="withdraw-button">Withdraw</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/banking.js"></script>
+</body>
+</html>
